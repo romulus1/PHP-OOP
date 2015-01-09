@@ -55,6 +55,8 @@ print $person1>name;
 $planet1 = new Planet();
 print $planet1>size;
 
+$band1 = new Band();
+print $band>members;
 <!-- Example 5: Methods -->
 public function myMethod( $argument, $another) {
 // stuff
