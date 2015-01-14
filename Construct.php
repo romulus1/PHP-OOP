@@ -19,6 +19,19 @@
     echo $food->statement(); 
 ?>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <?php
         class School {
         public $school;
