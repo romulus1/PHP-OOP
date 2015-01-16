@@ -1,4 +1,4 @@
-<!-- Lecture 1: Example 1: Classes -->
+//<!-- //Lecture 1: Example 1: Classes -->
 class Person {
     //class body
     //class body
@@ -17,8 +17,8 @@ class band {
     //class body
 }
 
-<!-- Example 2 -->
-$person1 = new Person();
+//<!-- //Example 2 -->
+$person1 = new Person();
 $person2 = new Person();
 
 $planet1 = new Planet();
@@ -116,52 +116,53 @@ print "The planet’s size is {$person1>getName()}.";
 <!--Lecture 2: Creating a constructor method -->
 
 class Person {
-public $firstName;
-public $lastName;
-public $race;
+public $firstName;
+public $lastName;
+public $race;
 
     function __construct($title, $firstName, $lastName, $race) {
-    $this>firstName = $firstName;
-    $this>lastName = $lastName;
-    $this>race = $race;
+    $this->firstName = $firstName;
+    $this->lastName = $lastName;
+    $this->race = $race;
     }
 
     function getName() {
-    return “{$this>firstName}” .
-    “{$this>lastName}”;
+    return "{$this->firstName}" .
+    "{$this->lastName}";
     }
 }
 
 class Planet {
-public $name;
-public $gravity;
-public $size;
+public $name;
+public $gravity;
+public $size;
 
     function __construct($title, $name, $gravity, $size) {
-    $this>Name = $Name;
-    $this>gravity = $gravity;
-    $this>size = $race;
+    $this->Name = $Name;
+    $this->gravity = $gravity;
+    $this->size = $race;
     }
 
     function getInfo() {
-    return “{$this>name}” .
-    “{$this>size}”;
+    return "{$this->name}" .
+    "{$this->size}";
     }
 }
 
 class Band {
-public $name;
-public $members;
-public $songs;
+public $name;
+public $members;
+public $songs;
 
     function __construct($title, $name, $members, $songs) {
-    $this>Name = $Name;
-    $this>gravity = $members;
-    $this>size = $songs;
+    $this->Name = $Name;
+    $this->gravity = $members;
+    $this->size = $songs;
     }
 
     function getAlbum() {
-    return “{$this>members}” .
-    “{$this>songs}”;
+    return "{$this->members}" .
+    "{$this->songs}";
     }
 }
+
